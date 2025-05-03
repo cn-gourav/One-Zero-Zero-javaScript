@@ -14,23 +14,6 @@ body {
     width: 100%;
 }
 
-#cursor {
-    width: 30px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: yellow;
-    position: fixed;
-}
-
-#cursor-glow {
-    width: 250px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: yellow;
-    position: fixed;
-    filter: blur(100px);
-    z-index: -1;
-}
 
 .flex {
     display: flex;
@@ -103,4 +86,33 @@ body {
 .nav-link a{
     font-size: 1.2rem;
     color: white;
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1vw;
+    justify-content: center;
+    gap: 600px;
+    transition: .5s ease-in-out;
+}
+
+.navbar-scroll {
+    background: yellow;
+}
+
+.navbar-scroll a , .navbar-scroll h2{
+    color: black;
+}
+
+.hero-section{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2{
+    height: 100vh;
+    justify-content: center;
 }
