@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        #fff ,
+        rgba(3, 3, 145, 0.646)
+    );
+}
+
+button{
+    padding: 1.4px 15px;
+    font-size: .7rem;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list li{
+    margin: 10px 20px;
+    list-style: square;
+}
