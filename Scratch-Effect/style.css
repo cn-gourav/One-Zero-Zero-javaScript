@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+span{
+    background: gold;
+    width: 120px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: fixed;
+    background-image: url('1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
