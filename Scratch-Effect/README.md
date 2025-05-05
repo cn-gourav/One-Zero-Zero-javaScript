@@ -1,4 +1,4 @@
-# Scratch Effect
+ # Scratch Effect
 
 An interactive web application that creates a unique scratch effect as users move their mouse across the screen. The effect reveals an image through circular cutouts that follow the mouse movement, creating an engaging and dynamic user experience.
 
@@ -82,4 +82,4 @@ This project works on all modern browsers that support:
 
 ## License
 
-This project is open source and available for personal and commercial use. 
+This project is open source and available for personal and commercial use.
